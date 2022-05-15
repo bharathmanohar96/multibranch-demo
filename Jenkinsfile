@@ -3,7 +3,16 @@ pipeline {
   stages {
     stage('welcome') {
       steps {
-        echo "welcome jenkins..."
+        echo "welcome jenkins........"
+      }
+    }
+    
+     stage('when test') {
+       when {
+          branch 'develop'     
+       }
+        steps {
+        echo "welcome jenkins when test........"
       }
     }
   }
