@@ -12,7 +12,7 @@ pipeline {
           branch 'develop'     
        }
         steps {
-        echo "welcome jenkins........"
+        echo "welcome jenkins when test........"
       }
     }
   }
