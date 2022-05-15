@@ -7,7 +7,7 @@ pipeline {
       }
     }
     
-     stage('welcome') {
+     stage('when test') {
        when {
           branch 'develop'     
        }
